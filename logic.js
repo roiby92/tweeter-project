@@ -24,6 +24,7 @@ const Tweeter = function () {
     let commentIdCounter = 6 //count the number of total comments
 
     const getPosts = function () {
+        console.log(posts);
         return posts //return all the posts array. log it if you want to see
     }
 
